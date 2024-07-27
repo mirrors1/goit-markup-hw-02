@@ -119,6 +119,7 @@ button {
 .team-list {
 }
 .team-item {
+  background-color: #fff;
 }
 .team-item-img {
   width: 264px;
