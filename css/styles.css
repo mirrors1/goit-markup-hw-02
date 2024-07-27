@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background: #fff;
 }
 a {
@@ -25,7 +25,7 @@ button {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -46,6 +46,9 @@ button {
 .menu-link:focus {
   color: #404bbf;
 }
+.address {
+  font-style: normal;
+}
 .contact {
 }
 .contact-item {
@@ -55,7 +58,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  font-style: normal;
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -72,6 +74,7 @@ button {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
+  text-align: center;
 }
 .hero-btn {
   font-weight: 500;
@@ -116,6 +119,8 @@ button {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
 }
 .team-list {
 }
@@ -123,8 +128,6 @@ button {
   background-color: #fff;
 }
 .team-item-img {
-  width: 264px;
-  height: 260px;
 }
 .team-item-title {
   font-weight: 500;
@@ -148,14 +151,14 @@ button {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
 }
 .portfolio-list {
 }
 .portfolio-item {
 }
 .portfolio-item-img {
-  width: 360px;
-  height: 300px;
 }
 .portfolio-item-title {
   font-weight: 500;
